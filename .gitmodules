@@ -1,3 +1,4 @@
 [submodule "kicad-radio-libraries"]
-	path = kicad-radio-libraries
-	url = https://github.com/hitov/kicad-radio-libraries.git
+       path = kicad-radio-libraries
+       url = https://github.com/hitov/kicad-radio-libraries.git
+
