@@ -1,0 +1,65 @@
+PCBNEW-LibModule-V1  20.10.2015 (вт) 22,22,34 EEST
+# encoding utf-8
+Units mm
+$INDEX
+PJ3020D
+$EndINDEX
+$MODULE PJ3020D
+Po 0 0 0 15 56269458 00000000 ~~
+Li PJ3020D
+Sc 0
+AR 
+Op 0 0 0
+T0 0.7 9.1 1 1 0 0.15 N V 21 N "PJ3020D"
+T1 -0.9 7.7 1 1 0 0.15 N V 21 N "VAL**"
+DS -5 0.5 -3.2 0.5 0.15 21
+DS -3.2 6 -5 6 0.15 21
+DS -5 6 -5 0.5 0.15 21
+DS 9.5 6.5 9.5 0 0.15 21
+DS 9.5 6.5 -3.2 6.5 0.15 21
+DS -3.2 6.5 -3.2 0 0.15 21
+DS -3.2 0 9.5 0 0.15 21
+$PAD
+Sh "4" R 1.2 2.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 1.2 2.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "2" R 1.2 2.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "1" R 1.2 2.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.1 6.5
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.6 3.25
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.4 3.25
+$EndPAD
+$EndMODULE PJ3020D
+$EndLIBRARY
