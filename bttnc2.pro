@@ -1,4 +1,4 @@
-update=20.11.2016 (нд)  1,56,46 EET
+update=" 5.12.2016 (пн) 23,34,55 EET"
 last_client=kicad
 [cvpcb]
 version=1
@@ -93,3 +93,5 @@ LibName38=kicad-radio-libraries/symbols/tp4056
 LibName39=kicad-radio-libraries/lib_w_connectors/w_connectors
 LibName40=kicad-radio-libraries/symbols/dw01-p
 LibName41=kicad-radio-libraries/symbols/8205a
+LibName42=kicad-radio-libraries/symbols/quectel-l80
+LibName43=kicad-radio-libraries/symbols/fdg6342l
