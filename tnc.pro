@@ -1,4 +1,4 @@
-update=" 3.11.2015 (вт) 23,23,31 EET"
+update=" 7.11.2016 (пн) 23,56,04 EET"
 version=1
 last_client=eeschema
 [general]
@@ -95,3 +95,4 @@ LibName33=4-pin-barrel_jack
 LibName34=pj3020d
 LibName35=kicad-radio-libraries/symbols/ape8800n
 LibName36=kicad-radio-libraries/symbols/bu33td3wg
+LibName37=KiCadLib/Symbols/Misc

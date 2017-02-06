@@ -1,4 +1,4 @@
-update=" 5.12.2016 (пн) 23,34,55 EET"
+update=" 6.02.2017 (пн) 21,40,06 EET"
 last_client=kicad
 [cvpcb]
 version=1
@@ -48,6 +48,16 @@ LibName19=kicad-radio-libraries/open-project
 LibName20=kicad-radio-libraries/footprints/AB2_USB_MICRO_SMD
 LibName21=kicad-radio-libraries/footprints/tssop-8
 LibName22=kicad-radio-libraries/footprints/CON-SMA-EDGE
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=KiCadLib
