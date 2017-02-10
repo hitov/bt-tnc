@@ -2,3 +2,9 @@
        path = kicad-radio-libraries
        url = https://github.com/hitov/kicad-radio-libraries.git
        branch = master
+
+
+[submodule "KiCadLib"]
+	path = KiCadLib
+	url = https://github.com/AerodyneLabs/KiCadLib.git
+	branch = master
