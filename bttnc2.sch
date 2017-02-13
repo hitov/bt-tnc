@@ -48,9 +48,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Bluetooth KISS TNC2"
-Date "15 nov 2016"
-Rev "0.1"
+Title "APRS Bluetooth TNC tracker"
+Date "2017-02-13"
+Rev "0.2a"
 Comp "LZ1ARM"
 Comment1 ""
 Comment2 ""
