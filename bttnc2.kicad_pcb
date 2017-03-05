@@ -3,7 +3,7 @@
   (general
     (links 231)
     (no_connects 0)
-    (area 105.270299 73.227466 184.783301 123.012301)
+    (area 113.005799 81.636799 183.155801 121.791801)
     (thickness 1.6)
     (drawings 12)
     (tracks 1271)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.254)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -1571,6 +1571,11 @@
     (pad 7 smd rect (at 3.7 0.9) (size 1 1) (layers F.Cu F.Paste F.Mask))
     (pad 8 thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
     (pad 9 thru_hole circle (at 1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+    (model ${KIPRJMOD}/kicad-radio-libraries/3d/MK12C02.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 589E564F) (tstamp 583AE675)
@@ -1708,7 +1713,7 @@
       (net 8 MOSI))
     (pad 6 thru_hole circle (at 2 4 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.00mm.wrl
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1796,6 +1801,11 @@
       (net 5 GND))
     (pad 6 thru_hole oval (at 3.4991 1.13746 180) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask)
       (net 5 GND))
+    (model "/mnt/store/Bango/ALLPROJECTS/hardwareprojects/my-mobilinkd/tnc2-pcb/kicad-radio-libraries/3d/User Library-MicroUSB-B_Molex_105017-0001.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 589E4FF6) (tstamp 583AE6B0)
@@ -2474,8 +2484,8 @@
       (net 76 "Net-(U1-Pad20)"))
     (pad 21 smd rect (at 11.6 1.8 270) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (model ../../../../../mnt/store/Bango/ALLPROJECTS/hardwareprojects/my-mobilinkd/tnc2-pcb/kicad-radio-libraries/3d/itead_hc-05.wrl
-      (at (xyz 0.25 0.47 0))
+    (model ${KIPRJMOD}/kicad-radio-libraries/3d/hc-06.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3708,6 +3718,11 @@
       (net 93 "Net-(C31-Pad2)"))
     (pad 6 smd oval (at 7.747 -6.35) (size 2.5 1) (layers F.Cu F.Paste F.Mask)
       (net 102 "Net-(R22-Pad2)"))
+    (model /mnt/store/Bango/ALLPROJECTS/hardwareprojects/my-mobilinkd/tnc2-pcb/kicad-radio-libraries/3d/quectel-l80.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 589E51C6) (tstamp 5845E2BE)
@@ -4098,10 +4113,10 @@
       (net 5 GND) (zone_connect 2))
     (pad 2 smd rect (at 2.54 0 270) (size 1.524 4.064) (layers B.Cu B.Paste B.Mask)
       (net 5 GND) (zone_connect 2))
-    (model ../../../../../mnt/store/Bango/ALLPROJECTS/hardwareprojects/my-mobilinkd/tnc2-pcb/kicad-radio-libraries/3d/sma_smd_73251-135x.wrl
+    (model ${KIPRJMOD}/kicad-radio-libraries/3d/sma_smd_73251-135x.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 270 0 0))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -4154,6 +4169,11 @@
       (net 5 GND))
     (pad 10 smd rect (at 11.1 0 270) (size 6.5 6.6) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
+    (model ${KIPRJMOD}/kicad-radio-libraries/3d/dra818.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text LZ1ARM (at 115.6716 96.5962 90) (layer B.Cu)
@@ -5304,15 +5324,15 @@
   (segment (start 165.227 115.2144) (end 165.2524 115.2398) (width 0.3) (layer F.Cu) (net 94) (tstamp 589A2B56))
   (via (at 165.227 115.2144) (size 1) (drill 0.35) (layers F.Cu B.Cu) (net 94))
   (segment (start 165.22954 115.21186) (end 165.227 115.2144) (width 0.3) (layer B.Cu) (net 94) (tstamp 589A2B45))
-  (segment (start 117.033 115.316) (end 117.033 116.266) (width 0.3) (layer B.Cu) (net 95) (status 400000))
-  (segment (start 116.84762 117.06098) (end 115.8748 117.06098) (width 0.3) (layer F.Cu) (net 95) (tstamp 58A19A77) (status 800000))
+  (segment (start 117.033 115.316) (end 117.033 116.266) (width 0.3) (layer B.Cu) (net 95))
+  (segment (start 116.84762 117.06098) (end 115.8748 117.06098) (width 0.3) (layer F.Cu) (net 95) (tstamp 58A19A77))
   (segment (start 116.8908 117.0178) (end 116.84762 117.06098) (width 0.3) (layer F.Cu) (net 95) (tstamp 58A19A76))
   (segment (start 116.8908 116.4082) (end 116.8908 117.0178) (width 0.3) (layer F.Cu) (net 95) (tstamp 58A19A75))
   (via (at 116.8908 116.4082) (size 0.9) (drill 0.35) (layers F.Cu B.Cu) (net 95))
   (segment (start 117.033 116.266) (end 116.8908 116.4082) (width 0.3) (layer B.Cu) (net 95) (tstamp 58A19A73))
-  (segment (start 118.1862 117.31498) (end 118.01602 117.31498) (width 0.3) (layer B.Cu) (net 96) (status C00000))
-  (segment (start 118.01602 117.31498) (end 117.2972 118.0338) (width 0.3) (layer B.Cu) (net 96) (tstamp 58A19A7B) (status 400000))
-  (segment (start 115.8748 118.4148) (end 115.8748 119.15902) (width 0.3) (layer F.Cu) (net 96) (tstamp 58A19A82) (status 800000))
+  (segment (start 118.1862 117.31498) (end 118.01602 117.31498) (width 0.3) (layer B.Cu) (net 96))
+  (segment (start 118.01602 117.31498) (end 117.2972 118.0338) (width 0.3) (layer B.Cu) (net 96) (tstamp 58A19A7B))
+  (segment (start 115.8748 118.4148) (end 115.8748 119.15902) (width 0.3) (layer F.Cu) (net 96) (tstamp 58A19A82))
   (segment (start 116.1542 118.1354) (end 115.8748 118.4148) (width 0.3) (layer F.Cu) (net 96) (tstamp 58A19A81))
   (segment (start 117.094 118.1354) (end 116.1542 118.1354) (width 0.3) (layer F.Cu) (net 96) (tstamp 58A19A80))
   (segment (start 117.1956 118.0338) (end 117.094 118.1354) (width 0.3) (layer F.Cu) (net 96) (tstamp 58A19A7F))
