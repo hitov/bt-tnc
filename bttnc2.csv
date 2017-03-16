@@ -1,0 +1,44 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref,
+1,"C15,C24",C_1206,2,10uF,V,http://store.comet.bg/Catalogue/Product/8191
+2,"C1,C3,C4,C8,C9,C16,C17,C22,C23",C_0805,9,100nF,V,
+3,"C2,C10,C12,C13,C14,C18,C19,C20,C25,C26,C28,C29,C31,C33,C34",C_0805,15,C,,
+4,C5,C_0805,1,10nF,V,
+5,"C6,C7",C_0805,2,10pF,V,
+6,C11,C_1210,1,CP1,,https://store.comet.bg/Catalogue/Product/8636/
+7,D1,LED_0805,1,Blue LED,,https://store.comet.bg/Catalogue/Product/44045/
+8,"D2,D3,D4,D8",LED_0805,4,LED,,
+9,"FB1,FB2,FB3,FB4,FB5,FB6,FB7,FB8",C_0805,8,BLM21PG331SN1D,,http://store.comet.bg/Catalogue/Product/9329
+10,K1,MK12C02,1,MK12C02,,
+11,"L1,L2,L3",C_0805,3,INDUCTOR,,
+12,P1,Pin_Header_Straight_2x03_Pitch2.00mm,1,ISP,,
+13,P2,JST_EH_B02B-EH-A_02x2.50mm_Straight,1,BATTERY,,
+14,P4,USB_Micro-B,1,USB_OTG,,
+15,"R1,R15",R_0805,2,10k,,
+16,R2,R_0805,1,0,,
+17,R3,R_0805,1,8k2,,
+18,R4,R_0805,1,100k,,
+19,R5,R_0805,1,15k,,
+20,"R6,R7",R_0805,2,1M,,
+21,"R8,R11,R12,R13,R14,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28",R_0805,17,R,,
+22,R9,R_0805,1,n/a,,
+23,"R10,R16",R_0805,2,1k,,
+24,U1,HC-05,1,HC-05,,
+25,U2,SOT-23,1,APE8800N,,http://store.comet.bg/Catalogue/Product/17861
+26,U3,SOT-23-5,1,BU33TD3WG,,http://store.comet.bg/Catalogue/Product/16342
+27,U4,TQFP-32_7x7mm_Pitch0.8mm,1,ATMEGA328P-AU,,https://store.comet.bg/Catalogue/Product/9232/
+28,U6,SOT-23-6,1,DW01-P,,
+29,U7,SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm,1,TP4056,,
+30,U8,TSSOP-8_4.4x3mm_Pitch0.65mm,1,8205A,,
+31,X1,crystal_FA238-TSX3225,1,QKT-3225SMD 16.0000MHz,,http://store.comet.bg/Catalogue/Product/45358
+32,"D5,D6,D7,D10,D11,D9",MiniMELF_Standard,6,D_Schottky,,http://store.comet.bg/Catalogue/Product/5041651
+33,U9,SOIC-8-N,1,LM358,,https://store.comet.bg/Catalogue/Product/20560/
+34,"C27,C30,C32",C_1206,3,CP1,,
+35,Q1,SOT-23,1,MMBT3904,,
+36,SW1,SW_Tactile_SPST_Angled,1,SW_PUSH,,https://store.comet.bg/Catalogue/Product/8908/
+37,U10,Qectel-L80,1,Quectel-L80,,https://store.comet.bg/Catalogue/Product/18130/
+38,U11,SC-70-6,1,FDG6342L,,
+39,C21,C_0805,1,CP1,,
+40,P5,U.FL-Coax,1,U.FL,,
+41,P6,Pin_Header_Straight_1x03_Pitch2.54mm,1,Serial,,
+42,P3,CON-SMA-EDGE,1,SMA,,
+43,U5,Dorji_DRA818,1,DRA818V,,
